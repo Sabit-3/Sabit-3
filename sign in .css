@@ -1,0 +1,89 @@
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+h1{ 
+   text-align: center;
+}
+/* Style  header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+   padding: 20px 0;
+   border-radius: 24px;
+}
+
+/* Center  form */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Style  form container */
+.form {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 320px;
+}
+
+/* Style inputs and labels */
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  text-align: center;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input:hover {
+  background-color: rgb(198, 198, 210);
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] { 
+  
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #565151;
+  border-radius: 3px;
+}
+
+/* Style submit button */
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+
+/* Style the submit button on hover */
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Responsive styles for screens with a maximum height of 559px */
+@media screen and (max-height: 559px) {
+  .form {
+    width: 100%;
+    /* Use the full width of the screen */
+    max-width: 1024px;
+    /* Remove the maximum width constraint */
+  }
+}
